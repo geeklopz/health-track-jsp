@@ -1,2 +1,2 @@
 # health-track-jsp
-Health Track React JAVA + SERVLET + JSP + JDBC
+Health Track JAVA + SERVLET + JSP + JDBC
