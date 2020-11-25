@@ -1,5 +1,13 @@
+<%-- <%@page import="br.com.healthtrack.model.Dashboard" %>
+<%@page import="java.util.ArrayList" %> --%>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+    
+<%--     <%
+    	ArrayList<Dashboard> dashdata = (ArrayList<Dashboard>) request.getAttribute("dashdados");
+    %> --%>
 
 
 <!-- Header -->
@@ -16,6 +24,14 @@
         <div class="col-12 mt-3 mb-3">
           <h5>Bem-vindo(a), Danilo</h5>
         </div>
+        
+<%--         <%
+        for(Dashboard d : dashdata) {
+        %>
+        
+        <% d.getQuantidadeBPM(); %>
+        
+        <% } %> --%>
         
         <!-- Passos -->
         <div class="col-12 col-md-4 mb-3">

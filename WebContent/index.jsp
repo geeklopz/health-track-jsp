@@ -15,7 +15,7 @@
           </div>
           <h1 class="text-center">Seu companheiro de vida saudável</h1>
           <p class="text-center">Se você já possui uma conta, basta fazer o login. Senão, <a href="register">cadastre-se.</a></p>
-          <form role="form" action="<%=request.getContextPath()%>/login" method="post">
+          <form role="form" action="" method="post">
             <div class="form-group">
               <label for="inputEmail">
                 Email
