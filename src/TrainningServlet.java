@@ -21,6 +21,7 @@ public class TrainningServlet extends HttpServlet {
      * @see HttpServlet#HttpServlet()
      */
     public TrainningServlet() {
+    	super();
         // TODO Auto-generated constructor stub
     }
 

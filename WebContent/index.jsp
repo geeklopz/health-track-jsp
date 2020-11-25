@@ -15,7 +15,7 @@
           </div>
           <h1 class="text-center">Seu companheiro de vida saudável</h1>
           <p class="text-center">Se você já possui uma conta, basta fazer o login. Senão, <a href="register">cadastre-se.</a></p>
-          <form role="form" action="dashboard.html">
+          <form role="form" action="<%=request.getContextPath()%>/login" method="post">
             <div class="form-group">
               <label for="inputEmail">
                 Email
@@ -23,7 +23,8 @@
               <input
                 type="email"
                 class="form-control"
-                id="inputSenha"
+                id="username"
+                name="username"
                 required
               />
             </div>
@@ -34,7 +35,8 @@
               <input
                 type="password"
                 class="form-control"
-                id="inputPassword"
+                id="password"
+                name="password"
                 required
               />
             </div>
